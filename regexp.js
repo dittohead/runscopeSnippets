@@ -1,3 +1,5 @@
+//RegExp example
+
 var string_temp = response.headers.Cookie;
 log (string_temp);
 var expr = new RegExp(/code=(.*)&?/); // parse from "/code=" to "?" (don't forget about escaping /string/ :) )
